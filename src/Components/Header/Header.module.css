@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  width: 1080px;
+  height: 1px;
+  background-color: #EAEAEA;
+  bottom: -44px;
+  left: -40px;
+}
+
+.header_left {
+  display: flex;
+}
+
+.left_txt {
+  margin-left: 16px;
+}
+
+.left_h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.left_p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9D9D9D;
+}
+
+.header_right {
+  display: flex;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+}
+
+.basket_img {
+  cursor: pointer;
+}
+
+.basket_price {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5C5C5C;
+  margin-left: 10px;
+}
+
+.favorites {
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.profile {
+  cursor: pointer;
+}
